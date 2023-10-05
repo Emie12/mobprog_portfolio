@@ -325,9 +325,12 @@ header.shadow {
 }
 .portfolio-content {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, auto));
-  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(400px, auto));
+  gap: 2rem;
   margin-top: 2rem;
+}
+.portfolio-content h1  {
+  text-decoration: underline;
 }
 .portfolio-img {
   overflow: hidden;
@@ -337,7 +340,37 @@ header.shadow {
   width: 100%;
   display: block;
 }
+
 .portfolio-img img:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+.project-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, auto));
+  gap: 2rem;
+  margin-top: 5rem;
+  margin-right: 20px;
+}
+.project-content h1  {
+  text-decoration: underline;
+  text-align: center;
+
+ 
+  
+  
+}
+.project-img {
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
+.project-img img {
+  
+  display: block;
+  margin-right:200%;
+}
+
+.project-img img:hover {
   transform: scale(1.1);
   transition: 1s;
 }
